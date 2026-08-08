@@ -1,0 +1,10 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
+data/*.csv
+"@ | Out-File -Encoding utf8 .gitignore
+src/jobs.csv
