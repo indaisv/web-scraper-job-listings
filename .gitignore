@@ -8,3 +8,5 @@ __pycache__/
 data/*.csv
 "@ | Out-File -Encoding utf8 .gitignore
 src/jobs.csv
+
+scratch/
